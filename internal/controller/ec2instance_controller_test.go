@@ -27,7 +27,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	computev1 "cloud.com/usianej/operator-repo/api/v1"
+	computev1 "github.com/usianej/operator-repo/api/v1"
 )
 
 var _ = Describe("Ec2Instance Controller", func() {

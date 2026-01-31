@@ -24,7 +24,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	computev1 "cloud.com/usianej/operator-repo/api/v1"
+	computev1 "github.com/usianej/operator-repo/api/v1"
 )
 
 // Ec2InstanceReconciler reconciles a Ec2Instance object

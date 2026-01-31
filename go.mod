@@ -1,4 +1,4 @@
-module cloud.com/usianej/operator-repo
+module github.com/usianej/operator-repo
 
 go 1.25.3
 

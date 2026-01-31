@@ -35,8 +35,8 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	computev1 "cloud.com/usianej/operator-repo/api/v1"
-	"cloud.com/usianej/operator-repo/internal/controller"
+	computev1 "github.com/usianej/operator-repo/api/v1"
+	"github.com/usianej/operator-repo/internal/controller"
 	// +kubebuilder:scaffold:imports
 )
 

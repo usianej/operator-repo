@@ -30,7 +30,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"cloud.com/usianej/operator-repo/test/utils"
+	"github.com/usianej/operator-repo/test/utils"
 )
 
 // namespace where the project is deployed in

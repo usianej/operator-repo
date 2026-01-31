@@ -7,7 +7,7 @@ domain: cloud.com
 layout:
 - go.kubebuilder.io/v4
 projectName: operator
-repo: cloud.com/usianej/operator-repo
+repo: github.com/usianej/operator-repo
 resources:
 - api:
     crdVersion: v1
@@ -16,6 +16,6 @@ resources:
   domain: cloud.com
   group: compute
   kind: Ec2Instance
-  path: cloud.com/usianej/operator-repo/api/v1
+  path: github.com/usianej/operator-repo/api/v1
   version: v1
 version: "3"
